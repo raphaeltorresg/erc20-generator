@@ -1,0 +1,55 @@
+[
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_name",
+				"type": "string"
+			},
+			{
+				"name": "_symbol",
+				"type": "string"
+			},
+			{
+				"name": "_decimals",
+				"type": "uint8"
+			},
+			{
+				"name": "_supply",
+				"type": "uint256"
+			}
+		],
+		"name": "deployToken",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"name": "tokenOwner",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"name": "tokenName",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"name": "tokenSymbol",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"name": "tokenAddress",
+				"type": "address"
+			}
+		],
+		"name": "TokenDeploy",
+		"type": "event"
+	}
+]
